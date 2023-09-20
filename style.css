@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+main, body{
+    height: 100%;
+    width:100%;
+}
+#main{
+    height:100vh;
+    width: 100%;
+}
+.question1{
+    width: 100%;
+    height: 90%;
+}
+.des{
+    margin-top: 10px;
+    height: 80vh;
+    width: 50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.que{
+    height: 100%;
+    width: 30%;
+    background-color: blueviolet;
+    border: 3px solid blue;
+}
+.ans{
+    height: 100%;
+    width: 50%;
+    background: radial-gradient(circle at 10% 20%, rgb(239, 246, 249) 0%, rgb(206, 239, 253) 90%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.que img{
+    height: 100%;
+    width: 100%;
+}
+.des1{
+    height: 150vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+
+
+}
+.que1{
+    height: 70vh;
+    width: 100%;
+    margin-top: 30px;
+}
+.que1 img{
+    height: 90%;
+    width: 80%;
+    border:4px solid red;
+}
+.ans1{
+    height: 70vh;
+    width: 100%;
+    background-color:white;
+    margin-top: 30px;
+    
+}
+.ans1 img{
+    height: 90%;
+    width: 80%;
+    border:4px solid red;
+}
+
+.text{
+    text-align: center;
+    font-size: 30px;
+    color: red;
+}
